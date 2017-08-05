@@ -1,5 +1,5 @@
 // Generated automatically by Perfect Assistant Application
-// Date: 2017-08-04 13:42:47 +0000
+// Date: 2017-08-05 00:37:17 +0000
 import PackageDescription
 let package = Package(
 	name: "PerfectCheWeiApi",
