@@ -21,6 +21,8 @@ import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
 
+DataBaseConnect.setup()
+
 let server = HTTPServer()
 server.serverPort = 8181
 var routes = Routes()
@@ -28,6 +30,8 @@ routes.add(method: .get, uri: "/") { (request, response) in
     response.setBody(string: "Hello,Word!")
     response.completed()
 }
+CWSignIn.addRoutesInServer(server: server)
+CWSendPhoneCode.addRoutesInServer(server: server)
 server.addRoutes(routes)
 do {
     try server.start()

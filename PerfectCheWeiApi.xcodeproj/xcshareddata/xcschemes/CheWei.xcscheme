@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1671"
+               BlueprintIdentifier = "OBJ_1847"
                BuildableName = "PerfectCheWeiApi"
                BlueprintName = "PerfectCheWeiApi"
                ReferencedContainer = "container:PerfectCheWeiApi.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1671"
+            BlueprintIdentifier = "OBJ_1847"
             BuildableName = "PerfectCheWeiApi"
             BlueprintName = "PerfectCheWeiApi"
             ReferencedContainer = "container:PerfectCheWeiApi.xcodeproj">
@@ -49,19 +49,25 @@
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      enableAddressSanitizer = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1671"
+            BlueprintIdentifier = "OBJ_1847"
             BuildableName = "PerfectCheWeiApi"
             BlueprintName = "PerfectCheWeiApi"
             ReferencedContainer = "container:PerfectCheWeiApi.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -74,7 +80,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1671"
+            BlueprintIdentifier = "OBJ_1847"
             BuildableName = "PerfectCheWeiApi"
             BlueprintName = "PerfectCheWeiApi"
             ReferencedContainer = "container:PerfectCheWeiApi.xcodeproj">
